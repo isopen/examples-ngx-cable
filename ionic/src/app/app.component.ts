@@ -39,12 +39,12 @@ export class MyApp {
 
       const params = {
         channel: back_ws_host,
-        room: 1
+        room: '1'
       };
 
       ngcable.subscribe(params);
 
-      params['room'] = 2;
+      params['room'] = '2';
 
       ngcable.subscribe(params);
 
